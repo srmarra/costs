@@ -9,7 +9,7 @@ function ProjectCard({id, name,budget,category,handleRemove}){
     }
     return(
         <div className={styles.project_card}>
-            <h4>{name} id {id}</h4>
+            <h4>{name}</h4>
             <p>
                 <span>Orçamento:</span> R${budget}
             </p>
@@ -18,7 +18,7 @@ function ProjectCard({id, name,budget,category,handleRemove}){
             </p>
 
             <div className={styles.project_card_actions}>
-                <Link to="/">
+                <Link to={`/project/${id}`}>
                     <BsPencil/> Editar
                 </Link>
                 <button id={id} onClick={remove}><BsFillTrashFill/> Exluir</button>

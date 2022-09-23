@@ -10,6 +10,17 @@
       "cost": 2,
       "services": [],
       "id": 1
+    },
+    {
+      "name": "Testando a ferramenta",
+      "budget": "5000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 2,
+      "services": [],
+      "id": 2
     }
   ],
   "categories": [
