@@ -12,11 +12,11 @@
       "id": 1
     },
     {
-      "name": "Testando a ferramenta",
-      "budget": "5000",
+      "name": "projeto atualizado 5",
+      "budget": "13000",
       "category": {
-        "id": "4",
-        "name": "Planejamento"
+        "id": "1",
+        "name": "Infra"
       },
       "cost": 2,
       "services": [],
